@@ -61,7 +61,7 @@ public:
    **/
   void drawMatriz(int posicoes[], int tamanhoPosicoes)
   {
-    for (int i = 0; i <= tamanhoPosicoes; i++)
+    for (int i = 0; i < tamanhoPosicoes; i++)
     {
       digitalWrite(arrayLED[posicoes[i]], HIGH);
     }
